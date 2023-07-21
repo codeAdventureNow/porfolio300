@@ -1,0 +1,533 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.ico" />
+
+    <!-- Todo: put here your site title -->
+    <title>[Nate Mueller] | Front End Web Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta
+      name="keywords"
+      content="[Nate Mueller], [Nate Mueller], javascript, React"
+    />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta
+      name="description"
+      content="[Nate Mueller] | Front End Web Developer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Nate Mueller</span>
+          <br />
+          Front End Web Developer.
+        </h1>
+       
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Know more</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile-photo-1.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                Although born and raised in Silicon Valley, my coding journey took flight in a vibrant co-work space in Sofia, Bulgaria. Mesmerized by the dance of my friend's espresso-fueled fingers on the keyboard, accompanied by the tunes of Pink Floyd, I sensed a harmonious fusion of artistry and logic that left me captivated. It was in that revelatory moment that I yearned to expand my creative horizons and embarked on a new chapter, influenced by the innovative spirit that shaped my upbringing.
+              </p>
+              <p class="about-wrapper__info-text">
+                In 2022, fueled by eagerness to broaden my knowledge, I dove into online courses and sought guidance from mentors who helped me carve a path toward becoming a front-end web developer. My ultimate goal is to contribute my skills to a dynamic team, crafting modern web applications that leave a positive impact on lives, no matter how small.
+              </p>
+
+              <p class="about-wrapper__info-text">
+                When not immersed in code, you'll find me strumming my guitar, playing classic rock, funk, and R&B. Nature beckons, and I prioritize regular hikes through the beautiful hills of the Bay Area. My spirit finds fulfillment in travel as well—I recently embraced new experiences during a six-month adventure living in Istanbul, Turkey.
+              </p>
+
+              <p>
+                This journey weaves together coding, music, nature, and travel, as I explore self-discovery, creativity, and making a difference. The innovative energy of my Silicon Valley upbringing continues to shape my interests and fuel my drive. Join me as I continue to grow, learn, and leave my mark in this ever-changing world.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/Nate-Mueller-Front-End-Web-Dev.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+
+          <!-- Skills -->
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Idea Board</h3>
+                <div>
+                  <p class="mb-4">
+                    At the start, I wanted to keep things simple, so I started with just displaying the title on each card. But as I got more comfortable with the project, I pushed myself to add more features. One of the things I came up with was a character countdown in the message body, which was a fun addition.
+                    <br>
+                    <br>
+                    Another aspect I worked on was implementing sorting capabilities. Now, users can sort their entries by date or alphabetically, making it easier to organize and find specific items.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://idea-board-2-0.vercel.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/codeAdventureNow/Idea-Board-2.0"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://idea-board-2-0.vercel.app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/IdeaBoard.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  Magnetic Speaking Marketing Campaign For Lead Generation
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    This was my first professional project. It provided me with invaluable experience in leveraging a company's branding assets to create a responsive ad that aligned with their marketing objectives. The implementation of Google Ads alongside the landing page resulted in a substantial surge in lead generation for the company.
+                    <br>
+                    <br>
+                    "I highly recommend Nate for any front-end web dev project. Nate coded an on-brand landing page for our Google AdWords initiative. Conversion increased by 100% from the previous landing page. Because of the innovative design element of capturing emails before prompting the appointment schedule, we captured and re-engaged potential clients who would have abandoned the process without us knowing about them."  
+                    <br>
+                    <br>
+                    <em><b>Peter Khoury - Founder & Executive Presentation Coach</b></em>
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://magneticspeaking.com/executivecommunication/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/codeAdventureNow/Magnetic-Speaking-Landing"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://magneticspeaking.com/executivecommunication/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/magnetic-speaking.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Calculator</h3>
+                <div>
+                  <p class="mb-4">
+                    At the start of this project, I realized my JavaScript logic skills were limited. To level up, my mentor suggested building a vanilla JS calculator. I felt overwhelmed initially, but I decided to start with a simple HTML and CSS design to get things moving.
+                    <br>
+                    <br>
+                    Step by step, I faced and conquered challenges along the way. One of my early wins was figuring out how to display numbers on the calculator's screen. It may seem small, but it was a significant milestone for me.
+                    <br>
+                    <br>
+                    After completing the calculator in vanilla JS, I didn't stop there. I refactored it into React to improve functionality and maintainability. This decision paid off, giving me a deeper understanding of React's power.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://calculator-react-ashen.vercel.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/codeAdventureNow/Calculator_React/"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://calculator-react-ashen.vercel.app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/React2.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Tic Tac Toe</h3>
+                <div>
+                  <p class="mb-4">
+                    Initially, I thought creating a Tic Tac Toe app would be straightforward after completing a React Calculator. However, I was mistaken. The complexity increased when I decided to implement a computer player. During the project, I had a breakthrough in working with reducers, simplifying functions, and utilizing booleans as state toggles. It was a valuable learning experience that enhanced my problem-solving skills and provided insights into state management. I'm proud of the progress made and the lessons learned.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://tic-tac-toe-lint.vercel.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/codeAdventureNow/TicTacToeLint"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://tic-tac-toe-lint.vercel.app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/TicTacToe.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Markdown Previewer</h3>
+                <div>
+                  <p class="mb-4">
+             
+
+                    Through this project, I realized the power of leveraging packages as efficient tools to reach solutions rather than reinventing the wheel. Navigating extensive package documentation was challenging, but I found a streamlined solution with minimal dependencies, making troubleshooting easier and enabling a focus on core functionality. This experience emphasized the value of selecting appropriate tools, exploring documentation thoroughly, and embracing simplicity and efficiency in development.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://markdown-react-markdown.vercel.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/codeAdventureNow/Markdown-React-Markdown"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://markdown-react-markdown.vercel.app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Markdown.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Pomodoro Timer</h3>
+                <div>
+                  <p class="mb-4">
+                    During this project, I experienced a significant breakthrough in my understanding of state management. One of the challenges I faced was implementing a countdown clock, which required some creative problem-solving. Once I overcame that obstacle, the project progressed smoothly. As an additional self-imposed challenge, I incorporated a feature where the UI of the timer would dynamically toggle colors based on whether the user was in a 'session' or 'break' mode.
+                  </p>
+                </div>
+
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://pomodoro-ts-one.vercel.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/codeAdventureNow/Pomodoro_TS"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://pomodoro-ts-one.vercel.app/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/pomodoro.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Let's connect!</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:nmueller855@gmail.com"
+            >Email</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <!-- <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a> -->
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/nate-mueller-b50317/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://github.com/codeAdventureNow"
+            target="_blank"
+          >
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2021 - Template developed by
+          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
+            >Jacobo Martínez</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
